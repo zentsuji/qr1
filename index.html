@@ -196,7 +196,7 @@
         keyword.style.display = "none";
         keyword.textContent = "";
 
-        qText.textContent = QUIZ_DATA.question;
+        qText.innerHTML = QUIZ_DATA.question;
         choicesEl.innerHTML = "";
 
         QUIZ_DATA.choices.forEach((text, idx) => {
